@@ -24,7 +24,7 @@ pipeline{
         }
         stage("Deploy on prod"){
             input{
-                massage "continue...."
+                message "continue...."
                 ok "yes..."
             }
 
